@@ -1,0 +1,340 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --maincolor : #E8E6E3 ;
+    --second-color :#C7C2BB ;
+
+}
+
+
+
+
+/* Start Servecis */
+.servecis {
+    background-color: #eee;
+}
+.servecis h3 {
+    color: var(--second-color);
+    font-weight: 900;
+    font-size: 40px;
+    margin: 50px 0;
+}
+.servecis .card h6 {
+    color: var(--second-color);
+    font-weight: 800;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+.servecis .card svg {
+    background-color: grey;
+    color: black;
+    width: 40px;
+    height: 40px;
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 50%;
+    transition: all 0.5s;
+
+}
+.servecis .card:hover svg {
+    color: white;
+    background-color: #333;
+
+}
+
+/* End Servecis */
+
+
+/* Start Testimonials */
+.Testimonials {
+    background-color: #ddd;
+}
+.Testimonials h3 {
+    color: var(--second-color);
+    font-size: 44px;
+    font-weight: 900;
+}
+.Testimonials .carousel-inner img{
+    width: 100px;
+    height: 100px;
+}
+.Testimonials .carousel-inner p {
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+    
+}
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--second-color);
+}
+/* End Testimonials */
+
+
+/* Start Team */
+.team h3 {
+    font-weight: 900;
+    color: var(--second-color);
+    font-size: 44px;
+
+}
+.team .card {
+    background-color: #252829;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+}
+.team .card h4 {
+    color: var(--maincolor);
+    font-size: 25px;
+    font-weight: 500;
+}
+.team .card h5 {
+    color: var(--maincolor);
+    font-size: 20px;
+    font-weight: 700;
+}
+.team .card img {
+    transition: all 0.5s ;
+}
+.team .card img:hover {
+    transform: scale(1.06);
+}
+.team .card .conntent {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    background-color: rgba(0,0,0,0.5);
+    transition: top 0.5s;
+}
+.team .card:hover .conntent {
+    top: 0;
+}
+.team .card .conntent svg {
+    color: white;
+    background-color: #333;
+}
+.team .container .card .photo {
+    position: relative;
+    overflow: hidden;
+
+}
+.team .container .card .layer {
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    transition: all .5s;
+    margin: 20px;
+}
+.team .container .card .layer svg {
+    font-size: 25px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid white;
+    transition: all .5s;
+}
+.team .container .card:hover .layer {
+    top: 0;
+}
+.team .container .card .layer svg:hover {
+    color: black;
+    background-color: white;
+    border-color: black;
+}
+
+
+
+
+/* End Team */
+
+
+/* Start Contact  */
+.contact{
+    background-color: grey;
+
+}
+.contact h3 {
+    font-weight: 900;
+    color: var(--second-color);
+    font-size: 44px;
+}
+.contact .container-fluid svg {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: gray;
+    padding: 10px;
+    transition: all 0.5s;
+}
+.contact .container-fluid .iconss:hover svg {
+    color: white;
+    background-color: black;
+}
+
+
+.contact .container-fluid .botton {
+    text-align: left ;
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+    width: fit-content !important;
+    cursor: pointer;
+    transition: all .5s;
+    border-radius: 6px;
+}
+.contact .row input,
+.contact textarea {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+.contact .container-fluid .botton:hover {
+    color: #333;
+    background-color: white;
+}
+/* End Contact  */
+
+
+/* Start About */
+.about {
+    background-color: #ddd;
+}
+.about .right h3 {
+    font-size: 33px;
+    font-weight: 800;
+}
+.about .right .btn1 {
+    color: white;
+    background-color: #333;
+    padding: 10px 20px;
+    border: 2px solid;
+    transition: all 0.5s;
+    
+}
+.about .left img {
+    width: 100%;
+}
+.about .right .btn2 {
+    color: #333;
+    background-color: white;
+    padding: 10px 20px;
+    transition: all 0.5s;
+
+}
+.about .right .btn1:hover {
+    color: #333;
+    background-color: white;
+}
+.about .right .btn2:hover {
+    color: white;
+    background-color: #333;
+}
+.about .right .progress .one {
+    position: relative;
+    background-color: #333;
+    
+}
+.about .right .progress .two {
+    position: relative;
+    background-color: #333;
+    
+}
+.about .right .progress .three {
+    position: relative;
+    background-color: #333;
+    
+}
+.about .right .progress .one::before {
+    content: "Web Design";
+    position: absolute;
+    left: 10px;
+    font-weight: bold;
+}
+.about .right .progress .one::after {
+    content: "95%";
+    position: absolute;
+    right: 10px;
+    font-weight: bold;
+}
+.about .right .progress .two::before {
+    content: "Branding";
+    position: absolute;
+    left: 10px;
+    font-weight: bold;
+}
+.about .right .progress .two::after {
+    content: "80%";
+    position: absolute;
+    right: 10px;
+    font-weight: bold;
+}
+.about .right .progress .three::before {
+    content: "Development";
+    position: absolute;
+    left: 10px;
+    font-weight: bold;
+}
+.about .right .progress .three::after {
+    content: "90%";
+    position: absolute;
+    right: 10px;
+    font-weight: bold;
+}
+/* End About */
+
+
+
+/* Start Work */
+.work h3 {
+    font-weight: 900;
+    color: var(--second-color);
+    font-size: 44px;
+}
+.work .tab-content .container .last {
+    position: relative;
+}
+
+.work .tab-content .container .last .shad svg {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+/* End Work */
+
+
+
+
+@media only screen and (max-width : 768px) {
+    .about .left {
+        margin-bottom: 25px;
+    }
+
+}
+@media only screen and (max-width : 535px) {
+    .Testimonials .carousel-inner p {
+        width: auto;
+    }
+
+}
